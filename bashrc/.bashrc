@@ -136,3 +136,6 @@ alias gupv='git pull --rebase -v'
 alias gwch='git whatchanged -p --abbrev-commit --pretty=medium'
 alias gwip='git add -A; git rm $(git ls-files --deleted) 2> /dev/null; git commit --no-verify -m "--wip-- [skip ci]"'
 alias gpfwl='git push --force-with-lease'
+
+# Created by `pipx` on 2025-11-15 12:14:58
+export PATH="$PATH:/home/max/.local/bin"
